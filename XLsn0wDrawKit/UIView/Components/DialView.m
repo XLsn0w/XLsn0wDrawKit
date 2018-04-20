@@ -23,6 +23,7 @@
 
 @implementation DialView
 
+///init
 - (instancetype)initWithFrame:(CGRect)frame
                     tintColor:(UIColor *)tintColor
                 selectedColor:(UIColor *)selectedColor
@@ -50,7 +51,7 @@
         [self setSelectedLightLineWithValue:dialValue preValue:self.selectedValue];
         
         // 带头的小圆点
-        [self setSelectedPointWithValue:dialValue preValue:self.selectedValue];
+//        [self setSelectedPointWithValue:dialValue preValue:self.selectedValue];
     }
     
     self.selectedValue = dialValue;
@@ -145,7 +146,7 @@
     [self setSelectedLightLineWithValue:self.selectedValue preValue:0];
     
     // 带头的小圆点
-    [self setSelectedPointWithValue:self.selectedValue preValue:0];
+//    [self setSelectedPointWithValue:self.selectedValue preValue:0];
 }
 
 - (void)setNormalCircle {

@@ -37,12 +37,11 @@
 }
 
 - (void)drawArc {
-    ///计算中心点
-    CGPoint center = CGPointMake(self.frame.size.width * 0.5, self.frame.size.height * 0.5);
-    
-    ///底层圆
-    CGFloat radius = self.frame.size.width * 0.5 - 15;
-    UIBezierPath * arcPath = [UIBezierPath bezierPathWithArcCenter:center radius:radius startAngle:0 endAngle:2 * M_PI clockwise:YES];
+    UIBezierPath * arcPath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.frame.size.width/2, self.frame.size.height/2)
+                                                            radius:self.frame.size.width / 2 - 15
+                                                        startAngle:0
+                                                          endAngle:2 * M_PI
+                                                         clockwise:YES];
     
     CAShapeLayer *shapelayer = [CAShapeLayer layer];
     _insideShapelayer = shapelayer;
@@ -54,11 +53,15 @@
     [self.layer addSublayer:shapelayer];
     
     ///顶层圆
-    CGFloat outerRadius = radius;
+    CGFloat outerRadius = self.frame.size.width / 2 - 15;
     
     NSLog(@"value:%f---maxValue:%f",_value,_maxValue);
     
-    UIBezierPath *outerArcPath = [UIBezierPath bezierPathWithArcCenter:center radius:outerRadius startAngle:-M_PI_2 endAngle:M_PI * 2 * (_value / _maxValue) - M_PI_2  clockwise:YES];
+    UIBezierPath *outerArcPath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.frame.size.width/2, self.frame.size.height/2)
+                                                                radius:outerRadius
+                                                            startAngle:-M_PI_2
+                                                              endAngle:M_PI * 2 * (_value / _maxValue) - M_PI_2
+                                                             clockwise:YES];
     
     CAShapeLayer *outerShapelayer = [CAShapeLayer layer];
     _outerShapelayer = outerShapelayer;
@@ -74,7 +77,7 @@
     
     self.valueLabel = valueLabel;
     
-    valueLabel.frame = CGRectMake(center.x - 50, center.y - 10, 100, 20);
+    valueLabel.frame = CGRectMake(CGPointMake(self.frame.size.width/2, self.frame.size.height/2).x - 50, CGPointMake(self.frame.size.width/2, self.frame.size.height/2).y - 10, 100, 20);
     valueLabel.textColor = [UIColor whiteColor];
     valueLabel.font = [UIFont systemFontOfSize:24 weight:2];
     valueLabel.textAlignment = NSTextAlignmentCenter;
@@ -109,7 +112,7 @@
     [gressLayer addAnimation:ani forKey:NSStringFromSelector(@selector(strokeEnd))];
 }
 
-#pragma mark set
+#pragma mark set方法
 - (void)setValueTitle:(NSString *)valueTitle{
     _valueLabel.text = valueTitle;
 }

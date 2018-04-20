@@ -23,8 +23,45 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self drawDrawView];
+    [self drawDialView];
 }
+
+- (void)loveReplicatorLayer {
+    // love路径
+    UIBezierPath *bezierPath = [UIBezierPath bezierPath];
+    [bezierPath moveToPoint:CGPointMake(20, 200)];
+    [bezierPath addLineToPoint:CGPointMake(300, 200)];
+    //    [bezierPath addQuadCurveToPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0, 400) controlPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0 + 200, 20)];
+    //    [bezierPath addQuadCurveToPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0, 200) controlPoint:CGPointMake(SYS_DEVICE_WIDTH/2.0 - 200, 20)];
+    [bezierPath closePath];
+    
+    // 具体的layer
+    UIView *dotView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
+    //    dotView.center = CGPointMake(SYS_DEVICE_WIDTH/2.0, 200);
+    dotView.layer.cornerRadius = dotView.frame.size.width/2;
+    dotView.backgroundColor = [UIColor greenColor];
+    
+    // 动作效果
+    CAKeyframeAnimation *loveAnimation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
+    loveAnimation.path = bezierPath.CGPath;
+    loveAnimation.duration = 8;
+    loveAnimation.repeatCount = MAXFLOAT;
+    loveAnimation.removedOnCompletion = NO;
+    loveAnimation.fillMode = kCAFillModeForwards;
+    [dotView.layer addAnimation:loveAnimation forKey:nil];
+    
+    
+    CAReplicatorLayer *loveLayer = [CAReplicatorLayer layer];
+    loveLayer.instanceCount = 10;                // 40个layer
+    loveLayer.instanceDelay = 0.2;               // 每隔0.2出现一个layer
+    loveLayer.instanceColor = [UIColor greenColor].CGColor;
+    loveLayer.instanceGreenOffset = -0.03;       // 颜色值递减。
+    loveLayer.instanceRedOffset = -0.02;         // 颜色值递减。
+    loveLayer.instanceBlueOffset = -0.01;        // 颜色值递减。
+    [loveLayer addSublayer:dotView.layer];
+    [self.view.layer addSublayer:loveLayer];
+}
+
 
 - (void)drawDrawView {
     DrawView *draw = [DrawView new];
@@ -36,8 +73,8 @@
 
 - (void)drawDialView {
     DialView *dial = [[DialView alloc] initWithFrame:CGRectMake(100, 400, 200, 200)
-                                           tintColor:[UIColor redColor]
-                                       selectedColor:[UIColor orangeColor]
+                                           tintColor:[UIColor orangeColor]
+                                       selectedColor:[UIColor blackColor]
                                            dialValue:0.2
                                             animated:YES];
     [self.view addSubview:dial];

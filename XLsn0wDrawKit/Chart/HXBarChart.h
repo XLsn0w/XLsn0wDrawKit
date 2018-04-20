@@ -1,11 +1,4 @@
-//
-//  HXBarChart.h
-//  移动运维
-//
-//  Created by 韩旭 on 2017/8/22.
-//  Copyright © 2017年 韩旭. All rights reserved.
-//
-
+/// 柱状图
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, OrientationType) {

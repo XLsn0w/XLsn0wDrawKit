@@ -22,7 +22,12 @@
 		CD322CD42088693F00609DCA /* HXLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CCE2088693E00609DCA /* HXLineChart.m */; };
 		CD322CD52088693F00609DCA /* HXBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CCF2088693E00609DCA /* HXBarChart.m */; };
 		CD322CD62088693F00609DCA /* HXGaugeChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CD12088693E00609DCA /* HXGaugeChart.m */; };
-		CD322CD920887BA600609DCA /* 弧线π参考系.png in Resources */ = {isa = PBXBuildFile; fileRef = CD322CD820887BA500609DCA /* 弧线π参考系.png */; };
+		CD322CD920887BA600609DCA /* 贝塞尔弧线π参考系.png in Resources */ = {isa = PBXBuildFile; fileRef = CD322CD820887BA500609DCA /* 贝塞尔弧线π参考系.png */; };
+		CD6B2A9B2089EAFA00C372AB /* YUAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A922089EAF900C372AB /* YUAnimationViewController.m */; };
+		CD6B2A9C2089EAFA00C372AB /* EmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A952089EAF900C372AB /* EmitterLayerView.m */; };
+		CD6B2A9D2089EAFA00C372AB /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A962089EAF900C372AB /* SnowView.m */; };
+		CD6B2A9E2089EAFA00C372AB /* YULoadingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A972089EAF900C372AB /* YULoadingLabel.m */; };
+		CD6B2AA02089EAFA00C372AB /* YUReplicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A992089EAF900C372AB /* YUReplicatorAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +78,17 @@
 		CD322CD02088693E00609DCA /* HXLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLineChart.h; sourceTree = "<group>"; };
 		CD322CD12088693E00609DCA /* HXGaugeChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXGaugeChart.m; sourceTree = "<group>"; };
 		CD322CD22088693E00609DCA /* HXGaugeChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXGaugeChart.h; sourceTree = "<group>"; };
-		CD322CD820887BA500609DCA /* 弧线π参考系.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "弧线π参考系.png"; sourceTree = "<group>"; };
+		CD322CD820887BA500609DCA /* 贝塞尔弧线π参考系.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "贝塞尔弧线π参考系.png"; sourceTree = "<group>"; };
+		CD6B2A8F2089EAF800C372AB /* EmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterLayerView.h; sourceTree = "<group>"; };
+		CD6B2A902089EAF800C372AB /* YULoadingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YULoadingLabel.h; sourceTree = "<group>"; };
+		CD6B2A912089EAF800C372AB /* SnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
+		CD6B2A922089EAF900C372AB /* YUAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUAnimationViewController.m; sourceTree = "<group>"; };
+		CD6B2A942089EAF900C372AB /* YUAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUAnimationViewController.h; sourceTree = "<group>"; };
+		CD6B2A952089EAF900C372AB /* EmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterLayerView.m; sourceTree = "<group>"; };
+		CD6B2A962089EAF900C372AB /* SnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
+		CD6B2A972089EAF900C372AB /* YULoadingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YULoadingLabel.m; sourceTree = "<group>"; };
+		CD6B2A992089EAF900C372AB /* YUReplicatorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUReplicatorAnimation.m; sourceTree = "<group>"; };
+		CD6B2A9A2089EAF900C372AB /* YUReplicatorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUReplicatorAnimation.h; sourceTree = "<group>"; };
 		E554C36C37EED55AF1E2C740 /* Pods-XLsn0wDrawKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wDrawKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wDrawKit/Pods-XLsn0wDrawKit.release.xcconfig"; sourceTree = "<group>"; };
 		F795D90754F5CA37021F9C56 /* Pods_XLsn0wDrawKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLsn0wDrawKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -150,8 +165,9 @@
 				CD322C902088431100609DCA /* AppDelegate.m */,
 				CD322C922088431100609DCA /* ViewController.h */,
 				CD322CC2208844D100609DCA /* ViewController.m */,
-				CD322CD820887BA500609DCA /* 弧线π参考系.png */,
-				CD322CEF2088927900609DCA /* drawRect */,
+				CD6B2AA42089F10800C372AB /* AnimationManager */,
+				CD6B2AA32089F0DC00C372AB /* CAEmitterLayer */,
+				CD6B2AA12089EEE200C372AB /* CAGradientLayer */,
 				CD322CF020889D8900609DCA /* Chart */,
 				CD322CD720886A8B00609DCA /* UIView */,
 				CD322C952088431100609DCA /* Main.storyboard */,
@@ -160,6 +176,7 @@
 				CD322C9D2088431300609DCA /* Info.plist */,
 				CD322C9E2088431300609DCA /* main.m */,
 				CD322CC620885D2E00609DCA /* PrefixHeader.pch */,
+				CD322CD820887BA500609DCA /* 贝塞尔弧线π参考系.png */,
 			);
 			path = XLsn0wDrawKit;
 			sourceTree = "<group>";
@@ -185,8 +202,8 @@
 		CD322CD720886A8B00609DCA /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				CD322CC72088619300609DCA /* DialView.h */,
-				CD322CC82088619300609DCA /* DialView.m */,
+				CDFF8A052089C9010005B749 /* Components */,
+				CD322CEF2088927900609DCA /* drawRect */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -213,6 +230,46 @@
 				CD322CCE2088693E00609DCA /* HXLineChart.m */,
 			);
 			path = Chart;
+			sourceTree = "<group>";
+		};
+		CD6B2AA12089EEE200C372AB /* CAGradientLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B2A902089EAF800C372AB /* YULoadingLabel.h */,
+				CD6B2A972089EAF900C372AB /* YULoadingLabel.m */,
+			);
+			path = CAGradientLayer;
+			sourceTree = "<group>";
+		};
+		CD6B2AA32089F0DC00C372AB /* CAEmitterLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B2A8F2089EAF800C372AB /* EmitterLayerView.h */,
+				CD6B2A952089EAF900C372AB /* EmitterLayerView.m */,
+				CD6B2A912089EAF800C372AB /* SnowView.h */,
+				CD6B2A962089EAF900C372AB /* SnowView.m */,
+			);
+			path = CAEmitterLayer;
+			sourceTree = "<group>";
+		};
+		CD6B2AA42089F10800C372AB /* AnimationManager */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B2A942089EAF900C372AB /* YUAnimationViewController.h */,
+				CD6B2A922089EAF900C372AB /* YUAnimationViewController.m */,
+				CD6B2A9A2089EAF900C372AB /* YUReplicatorAnimation.h */,
+				CD6B2A992089EAF900C372AB /* YUReplicatorAnimation.m */,
+			);
+			path = AnimationManager;
+			sourceTree = "<group>";
+		};
+		CDFF8A052089C9010005B749 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CD322CC72088619300609DCA /* DialView.h */,
+				CD322CC82088619300609DCA /* DialView.m */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,7 +379,7 @@
 			files = (
 				CD322C9C2088431300609DCA /* LaunchScreen.storyboard in Resources */,
 				CD322C992088431300609DCA /* Assets.xcassets in Resources */,
-				CD322CD920887BA600609DCA /* 弧线π参考系.png in Resources */,
+				CD322CD920887BA600609DCA /* 贝塞尔弧线π参考系.png in Resources */,
 				CD322C972088431100609DCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,11 +459,16 @@
 				CD322CC92088619300609DCA /* DialView.m in Sources */,
 				CD322CC4208844D100609DCA /* ViewController.m in Sources */,
 				CD322C9F2088431300609DCA /* main.m in Sources */,
+				CD6B2A9D2089EAFA00C372AB /* SnowView.m in Sources */,
+				CD6B2A9E2089EAFA00C372AB /* YULoadingLabel.m in Sources */,
 				CD322CD62088693F00609DCA /* HXGaugeChart.m in Sources */,
 				CD322CD42088693F00609DCA /* HXLineChart.m in Sources */,
 				CD322CD32088693F00609DCA /* CircularChart.m in Sources */,
+				CD6B2A9C2089EAFA00C372AB /* EmitterLayerView.m in Sources */,
 				CD322CC5208844D100609DCA /* DrawView.m in Sources */,
+				CD6B2A9B2089EAFA00C372AB /* YUAnimationViewController.m in Sources */,
 				CD322CD52088693F00609DCA /* HXBarChart.m in Sources */,
+				CD6B2AA02089EAFA00C372AB /* YUReplicatorAnimation.m in Sources */,
 				CD322C912088431100609DCA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
