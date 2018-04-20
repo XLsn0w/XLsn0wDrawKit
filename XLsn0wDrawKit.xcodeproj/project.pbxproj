@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		152B31AB48E357B964CDF17C /* Pods_XLsn0wDrawKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F795D90754F5CA37021F9C56 /* Pods_XLsn0wDrawKit.framework */; };
 		CD322C912088431100609DCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322C902088431100609DCA /* AppDelegate.m */; };
 		CD322C972088431100609DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD322C952088431100609DCA /* Main.storyboard */; };
 		CD322C992088431300609DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD322C982088431300609DCA /* Assets.xcassets */; };
@@ -17,6 +18,11 @@
 		CD322CC4208844D100609DCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CC2208844D100609DCA /* ViewController.m */; };
 		CD322CC5208844D100609DCA /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CC3208844D100609DCA /* DrawView.m */; };
 		CD322CC92088619300609DCA /* DialView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CC82088619300609DCA /* DialView.m */; };
+		CD322CD32088693F00609DCA /* CircularChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CCC2088693D00609DCA /* CircularChart.m */; };
+		CD322CD42088693F00609DCA /* HXLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CCE2088693E00609DCA /* HXLineChart.m */; };
+		CD322CD52088693F00609DCA /* HXBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CCF2088693E00609DCA /* HXBarChart.m */; };
+		CD322CD62088693F00609DCA /* HXGaugeChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CD12088693E00609DCA /* HXGaugeChart.m */; };
+		CD322CD920887BA600609DCA /* 弧线π参考系.png in Resources */ = {isa = PBXBuildFile; fileRef = CD322CD820887BA500609DCA /* 弧线π参考系.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D4629D5ABDDEC954B4705E2 /* Pods-XLsn0wDrawKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wDrawKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wDrawKit/Pods-XLsn0wDrawKit.debug.xcconfig"; sourceTree = "<group>"; };
 		CD322C8C2088431100609DCA /* XLsn0wDrawKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLsn0wDrawKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD322C8F2088431100609DCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD322C902088431100609DCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +65,17 @@
 		CD322CC620885D2E00609DCA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		CD322CC72088619300609DCA /* DialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialView.h; sourceTree = "<group>"; };
 		CD322CC82088619300609DCA /* DialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialView.m; sourceTree = "<group>"; };
+		CD322CCA2088693D00609DCA /* CircularChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularChart.h; sourceTree = "<group>"; };
+		CD322CCB2088693D00609DCA /* HXBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXBarChart.h; sourceTree = "<group>"; };
+		CD322CCC2088693D00609DCA /* CircularChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularChart.m; sourceTree = "<group>"; };
+		CD322CCE2088693E00609DCA /* HXLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLineChart.m; sourceTree = "<group>"; };
+		CD322CCF2088693E00609DCA /* HXBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXBarChart.m; sourceTree = "<group>"; };
+		CD322CD02088693E00609DCA /* HXLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLineChart.h; sourceTree = "<group>"; };
+		CD322CD12088693E00609DCA /* HXGaugeChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXGaugeChart.m; sourceTree = "<group>"; };
+		CD322CD22088693E00609DCA /* HXGaugeChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXGaugeChart.h; sourceTree = "<group>"; };
+		CD322CD820887BA500609DCA /* 弧线π参考系.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "弧线π参考系.png"; sourceTree = "<group>"; };
+		E554C36C37EED55AF1E2C740 /* Pods-XLsn0wDrawKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wDrawKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wDrawKit/Pods-XLsn0wDrawKit.release.xcconfig"; sourceTree = "<group>"; };
+		F795D90754F5CA37021F9C56 /* Pods_XLsn0wDrawKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLsn0wDrawKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152B31AB48E357B964CDF17C /* Pods_XLsn0wDrawKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A417FBE70B964B2FA157399 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F795D90754F5CA37021F9C56 /* Pods_XLsn0wDrawKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2AD1DCF5A91A19ECB46BEF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D4629D5ABDDEC954B4705E2 /* Pods-XLsn0wDrawKit.debug.xcconfig */,
+				E554C36C37EED55AF1E2C740 /* Pods-XLsn0wDrawKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CD322C832088431100609DCA = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +128,8 @@
 				CD322CA72088431300609DCA /* XLsn0wDrawKitTests */,
 				CD322CB22088431300609DCA /* XLsn0wDrawKitUITests */,
 				CD322C8D2088431100609DCA /* Products */,
+				B2AD1DCF5A91A19ECB46BEF2 /* Pods */,
+				5A417FBE70B964B2FA157399 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,10 +150,10 @@
 				CD322C902088431100609DCA /* AppDelegate.m */,
 				CD322C922088431100609DCA /* ViewController.h */,
 				CD322CC2208844D100609DCA /* ViewController.m */,
-				CD322CC1208844D100609DCA /* DrawView.h */,
-				CD322CC3208844D100609DCA /* DrawView.m */,
-				CD322CC72088619300609DCA /* DialView.h */,
-				CD322CC82088619300609DCA /* DialView.m */,
+				CD322CD820887BA500609DCA /* 弧线π参考系.png */,
+				CD322CEF2088927900609DCA /* drawRect */,
+				CD322CF020889D8900609DCA /* Chart */,
+				CD322CD720886A8B00609DCA /* UIView */,
 				CD322C952088431100609DCA /* Main.storyboard */,
 				CD322C982088431300609DCA /* Assets.xcassets */,
 				CD322C9A2088431300609DCA /* LaunchScreen.storyboard */,
@@ -144,6 +182,39 @@
 			path = XLsn0wDrawKitUITests;
 			sourceTree = "<group>";
 		};
+		CD322CD720886A8B00609DCA /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				CD322CC72088619300609DCA /* DialView.h */,
+				CD322CC82088619300609DCA /* DialView.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		CD322CEF2088927900609DCA /* drawRect */ = {
+			isa = PBXGroup;
+			children = (
+				CD322CC1208844D100609DCA /* DrawView.h */,
+				CD322CC3208844D100609DCA /* DrawView.m */,
+			);
+			path = drawRect;
+			sourceTree = "<group>";
+		};
+		CD322CF020889D8900609DCA /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				CD322CCA2088693D00609DCA /* CircularChart.h */,
+				CD322CCC2088693D00609DCA /* CircularChart.m */,
+				CD322CCB2088693D00609DCA /* HXBarChart.h */,
+				CD322CCF2088693E00609DCA /* HXBarChart.m */,
+				CD322CD22088693E00609DCA /* HXGaugeChart.h */,
+				CD322CD12088693E00609DCA /* HXGaugeChart.m */,
+				CD322CD02088693E00609DCA /* HXLineChart.h */,
+				CD322CCE2088693E00609DCA /* HXLineChart.m */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD322CB82088431300609DCA /* Build configuration list for PBXNativeTarget "XLsn0wDrawKit" */;
 			buildPhases = (
+				8C9802EBEE20829F09D97653 /* [CP] Check Pods Manifest.lock */,
 				CD322C882088431100609DCA /* Sources */,
 				CD322C892088431100609DCA /* Frameworks */,
 				CD322C8A2088431100609DCA /* Resources */,
+				6F64DD7BE680E2BBB490167F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +322,7 @@
 			files = (
 				CD322C9C2088431300609DCA /* LaunchScreen.storyboard in Resources */,
 				CD322C992088431300609DCA /* Assets.xcassets in Resources */,
+				CD322CD920887BA600609DCA /* 弧线π参考系.png in Resources */,
 				CD322C972088431100609DCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +343,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F64DD7BE680E2BBB490167F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XLsn0wDrawKit/Pods-XLsn0wDrawKit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/XLsn0wKit_objc/XLsn0wKit_objc.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLsn0wKit_objc.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLsn0wDrawKit/Pods-XLsn0wDrawKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C9802EBEE20829F09D97653 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLsn0wDrawKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD322C882088431100609DCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -277,7 +402,11 @@
 				CD322CC92088619300609DCA /* DialView.m in Sources */,
 				CD322CC4208844D100609DCA /* ViewController.m in Sources */,
 				CD322C9F2088431300609DCA /* main.m in Sources */,
+				CD322CD62088693F00609DCA /* HXGaugeChart.m in Sources */,
+				CD322CD42088693F00609DCA /* HXLineChart.m in Sources */,
+				CD322CD32088693F00609DCA /* CircularChart.m in Sources */,
 				CD322CC5208844D100609DCA /* DrawView.m in Sources */,
+				CD322CD52088693F00609DCA /* HXBarChart.m in Sources */,
 				CD322C912088431100609DCA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +574,7 @@
 		};
 		CD322CB92088431300609DCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4629D5ABDDEC954B4705E2 /* Pods-XLsn0wDrawKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +593,7 @@
 		};
 		CD322CBA2088431300609DCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E554C36C37EED55AF1E2C740 /* Pods-XLsn0wDrawKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
