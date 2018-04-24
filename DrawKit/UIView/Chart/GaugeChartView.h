@@ -1,14 +1,7 @@
-//
-//  HXCircleChart.h
-//  移动运维
-//
-//  Created by 韩旭 on 2017/8/18.
-//  Copyright © 2017年 韩旭. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 
-@interface HXGaugeChart : UIView
+@interface GaugeChartView : UIView
 
 ///初始化方法
 - (instancetype)initWithFrame:(CGRect)frame withMaxValue:(CGFloat)maxValue value:(CGFloat)value;

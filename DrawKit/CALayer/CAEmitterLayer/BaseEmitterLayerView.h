@@ -1,20 +1,23 @@
 
-
 #import <UIKit/UIKit.h>
 
-typedef enum : NSUInteger {
-    __SNOW = 0x11,
-    __RAIN,
-    __NONE
-} EMitterType;
+//typedef enum : NSInteger {
+//    SnowEmitterType,
+//    RainEmitterType
+//} EmitterType;
 
-@interface EmitterLayerView : UIView
+typedef NS_ENUM(NSInteger, EmitterType) {
+    SnowEmitterType,
+    RainEmitterType
+};
+
+@interface BaseEmitterLayerView : UIView
 
 /**
  * 重写setter，getter方法，可以在程序中直接使用点语法
  */
-- (void)setEmitterLayer:(CAEmitterLayer *)layer;
-- (CAEmitterLayer *)emitterLayer;
+- (void)setEmitterLayer:(CAEmitterLayer *)layer;///setter
+- (CAEmitterLayer *)emitterLayer;///getter
 
 /**
  *  CAEmitterLayer参数详解
@@ -140,6 +143,6 @@ typedef enum : NSUInteger {
 
 - (void)show;
 - (void)hide;
-- (void)configType:(EMitterType)type;
+- (void)initWithType:(EmitterType)type;
 
 @end

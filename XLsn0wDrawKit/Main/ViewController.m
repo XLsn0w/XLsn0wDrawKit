@@ -11,6 +11,7 @@
 #import "DialView.h"
 #import <LocalAuthentication/LocalAuthentication.h>
 #import "XLsn0wDrawKit.h"
+#import "GaugeChartView.h"
 
 @interface ViewController ()
 
@@ -24,7 +25,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view.layer addSublayer:[XLsn0wAnimationLayer drawHeart]];
+//    [self.view.layer addSublayer:[XLsn0wAnimationLayer drawHeart]];
+    GaugeChartView *v = [[GaugeChartView alloc] initWithFrame:(CGRectMake(100, 100, 200, 400)) withMaxValue:200 value:30];
+    [self.view addSubview:v];
 }
 
 - (void)loveReplicatorLayer {

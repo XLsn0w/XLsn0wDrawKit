@@ -6,7 +6,7 @@ typedef NS_ENUM(NSInteger, OrientationType) {
     OrientationVertical = 1,///竖向
 };
 
-@interface HXBarChart : UIView
+@interface BarChartView : UIView
 
 
 /**

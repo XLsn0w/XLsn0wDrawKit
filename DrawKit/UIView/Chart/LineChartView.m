@@ -1,13 +1,7 @@
-//
-//  HXLineChart.m
-//  移动运维
-//
-//  Created by 韩旭 on 2017/8/23.
-//  Copyright © 2017年 韩旭. All rights reserved.
-//
 
-#import "HXLineChart.h"
-@interface HXLineChart()
+#import "LineChartView.h"
+
+@interface LineChartView ()
 
 @property(nonatomic,strong)NSArray* colors;
 @property(nonatomic,assign)BOOL pathCurve;
@@ -39,7 +33,7 @@
 @property (nonatomic, assign) CGFloat average;
 @property (nonatomic, assign) int minYCount;
 @end
-@implementation HXLineChart
+@implementation LineChartView
 
 -(instancetype)initWithFrame:(CGRect)frame
 {

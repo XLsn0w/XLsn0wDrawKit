@@ -1,8 +1,7 @@
 
+#import "SnowEmitterCellView.h"
 
-#import "SnowView.h"
-
-@implementation SnowView
+@implementation SnowEmitterCellView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
@@ -19,12 +18,7 @@
     self.emitterLayer.emitterPosition = CGPointMake(self.bounds.size.width / 2.f, - 5); // 发射中心点位置
 }
 
-- (void)showSnow {
-    
-    if (_snowImage == nil) {
-        
-        return;
-    }
+- (void)show {
     
     // 创建雪花类型的粒子
     CAEmitterCell *snowflake = [CAEmitterCell emitterCell];
@@ -67,11 +61,15 @@
 
     // 添加粒子
     self.emitterLayer.emitterCells = @[snowflake];
+    
+    [UIView animateWithDuration:1.75f animations:^{
+        self.alpha = 0.5f;
+    }];
 }
 
-- (void)configType:(EMitterType)type {
+- (void)initWithType:(EmitterType)type {
     
-    if (type == __SNOW) {
+    if (type == SnowEmitterType) {
         // 配置
         self.birthRate = 5.f;
         self.snowImage = [UIImage imageNamed:@"snow"];
@@ -84,21 +82,10 @@
         self.maskView          = snowAlpha;
     }
 }
-- (void)show {
-    
-    [self showSnow];
-    
-    [UIView animateWithDuration:1.75f animations:^{
-        
-        self.alpha = 0.5f;
-    }];
-}
+
 - (void)hide {
-    
     [UIView animateWithDuration:0.75 animations:^{
-        
         self.alpha = 0.f;
-        
     } completion:^(BOOL finished) {
         
     }];

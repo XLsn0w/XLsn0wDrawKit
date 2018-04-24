@@ -1,8 +1,8 @@
 
 
-#import "EmitterLayerView.h"
+#import "BaseEmitterLayerView.h"
 
-@interface SnowView : EmitterLayerView
+@interface SnowEmitterCellView : BaseEmitterLayerView
 
 @property (nonatomic, strong) UIImage *snowImage;
 
@@ -13,9 +13,9 @@
 @property (nonatomic, assign) CGFloat   gravity;    // 重力
 @property (nonatomic, strong) UIColor  *snowColor;  // 雪花颜色
 
-- (void)showSnow;
+
 - (void)show;
 - (void)hide;
-- (void)configType:(EMitterType)type;
+- (void)initWithType:(EmitterType)type;
 
 @end

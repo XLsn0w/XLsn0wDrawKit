@@ -19,15 +19,15 @@
 		CD322CC5208844D100609DCA /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CC3208844D100609DCA /* DrawView.m */; };
 		CD322CC92088619300609DCA /* DialView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CC82088619300609DCA /* DialView.m */; };
 		CD322CD32088693F00609DCA /* CircularChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CCC2088693D00609DCA /* CircularChart.m */; };
-		CD322CD42088693F00609DCA /* HXLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CCE2088693E00609DCA /* HXLineChart.m */; };
-		CD322CD52088693F00609DCA /* HXBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CCF2088693E00609DCA /* HXBarChart.m */; };
-		CD322CD62088693F00609DCA /* HXGaugeChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CD12088693E00609DCA /* HXGaugeChart.m */; };
-		CD322CD920887BA600609DCA /* 贝塞尔弧线π参考系.png in Resources */ = {isa = PBXBuildFile; fileRef = CD322CD820887BA500609DCA /* 贝塞尔弧线π参考系.png */; };
-		CD6B2A9C2089EAFA00C372AB /* EmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A952089EAF900C372AB /* EmitterLayerView.m */; };
-		CD6B2A9D2089EAFA00C372AB /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A962089EAF900C372AB /* SnowView.m */; };
-		CD6B2A9E2089EAFA00C372AB /* YULoadingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A972089EAF900C372AB /* YULoadingLabel.m */; };
+		CD322CD42088693F00609DCA /* LineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CCE2088693E00609DCA /* LineChartView.m */; };
+		CD322CD52088693F00609DCA /* BarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CCF2088693E00609DCA /* BarChartView.m */; };
+		CD322CD62088693F00609DCA /* GaugeChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CD12088693E00609DCA /* GaugeChartView.m */; };
+		CD6B2A9C2089EAFA00C372AB /* BaseEmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A952089EAF900C372AB /* BaseEmitterLayerView.m */; };
+		CD6B2A9D2089EAFA00C372AB /* SnowEmitterCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A962089EAF900C372AB /* SnowEmitterCellView.m */; };
+		CD6B2A9E2089EAFA00C372AB /* XLsn0wGradientLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A972089EAF900C372AB /* XLsn0wGradientLayerLabel.m */; };
 		CDC0A281208EDA7200400E9A /* XLsn0wDrawKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CDC0A280208EDA7200400E9A /* XLsn0wDrawKit.podspec */; };
 		CDC0A287208EDBF400400E9A /* XLsn0wAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC0A286208EDBF400400E9A /* XLsn0wAnimationLayer.m */; };
+		CDC177D8208F31C200F0E86C /* XLsn0wDrawKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDC177D7208F31C200F0E86C /* XLsn0wDrawKit.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,24 +71,24 @@
 		CD322CC72088619300609DCA /* DialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialView.h; sourceTree = "<group>"; };
 		CD322CC82088619300609DCA /* DialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialView.m; sourceTree = "<group>"; };
 		CD322CCA2088693D00609DCA /* CircularChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularChart.h; sourceTree = "<group>"; };
-		CD322CCB2088693D00609DCA /* HXBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXBarChart.h; sourceTree = "<group>"; };
+		CD322CCB2088693D00609DCA /* BarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChartView.h; sourceTree = "<group>"; };
 		CD322CCC2088693D00609DCA /* CircularChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularChart.m; sourceTree = "<group>"; };
-		CD322CCE2088693E00609DCA /* HXLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLineChart.m; sourceTree = "<group>"; };
-		CD322CCF2088693E00609DCA /* HXBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXBarChart.m; sourceTree = "<group>"; };
-		CD322CD02088693E00609DCA /* HXLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLineChart.h; sourceTree = "<group>"; };
-		CD322CD12088693E00609DCA /* HXGaugeChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXGaugeChart.m; sourceTree = "<group>"; };
-		CD322CD22088693E00609DCA /* HXGaugeChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXGaugeChart.h; sourceTree = "<group>"; };
-		CD322CD820887BA500609DCA /* 贝塞尔弧线π参考系.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "贝塞尔弧线π参考系.png"; sourceTree = "<group>"; };
-		CD6B2A8F2089EAF800C372AB /* EmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterLayerView.h; sourceTree = "<group>"; };
-		CD6B2A902089EAF800C372AB /* YULoadingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YULoadingLabel.h; sourceTree = "<group>"; };
-		CD6B2A912089EAF800C372AB /* SnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
-		CD6B2A952089EAF900C372AB /* EmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterLayerView.m; sourceTree = "<group>"; };
-		CD6B2A962089EAF900C372AB /* SnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
-		CD6B2A972089EAF900C372AB /* YULoadingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YULoadingLabel.m; sourceTree = "<group>"; };
+		CD322CCE2088693E00609DCA /* LineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartView.m; sourceTree = "<group>"; };
+		CD322CCF2088693E00609DCA /* BarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChartView.m; sourceTree = "<group>"; };
+		CD322CD02088693E00609DCA /* LineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartView.h; sourceTree = "<group>"; };
+		CD322CD12088693E00609DCA /* GaugeChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaugeChartView.m; sourceTree = "<group>"; };
+		CD322CD22088693E00609DCA /* GaugeChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaugeChartView.h; sourceTree = "<group>"; };
+		CD6B2A8F2089EAF800C372AB /* BaseEmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEmitterLayerView.h; sourceTree = "<group>"; };
+		CD6B2A902089EAF800C372AB /* XLsn0wGradientLayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wGradientLayerLabel.h; sourceTree = "<group>"; };
+		CD6B2A912089EAF800C372AB /* SnowEmitterCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowEmitterCellView.h; sourceTree = "<group>"; };
+		CD6B2A952089EAF900C372AB /* BaseEmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEmitterLayerView.m; sourceTree = "<group>"; };
+		CD6B2A962089EAF900C372AB /* SnowEmitterCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowEmitterCellView.m; sourceTree = "<group>"; };
+		CD6B2A972089EAF900C372AB /* XLsn0wGradientLayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wGradientLayerLabel.m; sourceTree = "<group>"; };
 		CDC0A280208EDA7200400E9A /* XLsn0wDrawKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wDrawKit.podspec; sourceTree = "<group>"; };
 		CDC0A285208EDBF400400E9A /* XLsn0wAnimationLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLsn0wAnimationLayer.h; sourceTree = "<group>"; };
 		CDC0A286208EDBF400400E9A /* XLsn0wAnimationLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAnimationLayer.m; sourceTree = "<group>"; };
 		CDC0A289208EFC2C00400E9A /* XLsn0wDrawKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLsn0wDrawKit.h; sourceTree = "<group>"; };
+		CDC177D7208F31C200F0E86C /* XLsn0wDrawKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XLsn0wDrawKit.bundle; sourceTree = "<group>"; };
 		E554C36C37EED55AF1E2C740 /* Pods-XLsn0wDrawKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wDrawKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wDrawKit/Pods-XLsn0wDrawKit.release.xcconfig"; sourceTree = "<group>"; };
 		F795D90754F5CA37021F9C56 /* Pods_XLsn0wDrawKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLsn0wDrawKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -164,8 +164,6 @@
 			children = (
 				CDC177D4208F089E00F0E86C /* Main */,
 				CD322CEF2088927900609DCA /* DrawRect */,
-				CDC177D5208F0A4A00F0E86C /* CALayer */,
-				CD322CD720886A8B00609DCA /* UIView */,
 			);
 			path = XLsn0wDrawKit;
 			sourceTree = "<group>";
@@ -209,14 +207,14 @@
 		CD322CF020889D8900609DCA /* Chart */ = {
 			isa = PBXGroup;
 			children = (
+				CD322CD02088693E00609DCA /* LineChartView.h */,
+				CD322CCE2088693E00609DCA /* LineChartView.m */,
+				CD322CCB2088693D00609DCA /* BarChartView.h */,
+				CD322CCF2088693E00609DCA /* BarChartView.m */,
+				CD322CD22088693E00609DCA /* GaugeChartView.h */,
+				CD322CD12088693E00609DCA /* GaugeChartView.m */,
 				CD322CCA2088693D00609DCA /* CircularChart.h */,
 				CD322CCC2088693D00609DCA /* CircularChart.m */,
-				CD322CCB2088693D00609DCA /* HXBarChart.h */,
-				CD322CCF2088693E00609DCA /* HXBarChart.m */,
-				CD322CD22088693E00609DCA /* HXGaugeChart.h */,
-				CD322CD12088693E00609DCA /* HXGaugeChart.m */,
-				CD322CD02088693E00609DCA /* HXLineChart.h */,
-				CD322CCE2088693E00609DCA /* HXLineChart.m */,
 			);
 			path = Chart;
 			sourceTree = "<group>";
@@ -224,8 +222,8 @@
 		CD6B2AA12089EEE200C372AB /* CAGradientLayer */ = {
 			isa = PBXGroup;
 			children = (
-				CD6B2A902089EAF800C372AB /* YULoadingLabel.h */,
-				CD6B2A972089EAF900C372AB /* YULoadingLabel.m */,
+				CD6B2A902089EAF800C372AB /* XLsn0wGradientLayerLabel.h */,
+				CD6B2A972089EAF900C372AB /* XLsn0wGradientLayerLabel.m */,
 			);
 			path = CAGradientLayer;
 			sourceTree = "<group>";
@@ -233,21 +231,12 @@
 		CD6B2AA32089F0DC00C372AB /* CAEmitterLayer */ = {
 			isa = PBXGroup;
 			children = (
-				CD6B2A8F2089EAF800C372AB /* EmitterLayerView.h */,
-				CD6B2A952089EAF900C372AB /* EmitterLayerView.m */,
-				CD6B2A912089EAF800C372AB /* SnowView.h */,
-				CD6B2A962089EAF900C372AB /* SnowView.m */,
+				CD6B2A8F2089EAF800C372AB /* BaseEmitterLayerView.h */,
+				CD6B2A952089EAF900C372AB /* BaseEmitterLayerView.m */,
+				CD6B2A912089EAF800C372AB /* SnowEmitterCellView.h */,
+				CD6B2A962089EAF900C372AB /* SnowEmitterCellView.m */,
 			);
 			path = CAEmitterLayer;
-			sourceTree = "<group>";
-		};
-		CD6B2AA42089F10800C372AB /* AnimationManager */ = {
-			isa = PBXGroup;
-			children = (
-				CDC0A285208EDBF400400E9A /* XLsn0wAnimationLayer.h */,
-				CDC0A286208EDBF400400E9A /* XLsn0wAnimationLayer.m */,
-			);
-			path = AnimationManager;
 			sourceTree = "<group>";
 		};
 		CDC0A27F208EDA7200400E9A /* DrawKit */ = {
@@ -255,8 +244,9 @@
 			children = (
 				CDC0A280208EDA7200400E9A /* XLsn0wDrawKit.podspec */,
 				CDC0A289208EFC2C00400E9A /* XLsn0wDrawKit.h */,
-				CD322CD820887BA500609DCA /* 贝塞尔弧线π参考系.png */,
-				CD6B2AA42089F10800C372AB /* AnimationManager */,
+				CDC177D9208F324800F0E86C /* Bundle */,
+				CD322CD720886A8B00609DCA /* UIView */,
+				CDC177D5208F0A4A00F0E86C /* CALayer */,
 			);
 			path = DrawKit;
 			sourceTree = "<group>";
@@ -281,10 +271,28 @@
 		CDC177D5208F0A4A00F0E86C /* CALayer */ = {
 			isa = PBXGroup;
 			children = (
+				CDC177D6208F2F3B00F0E86C /* CAShapeLayer */,
 				CD6B2AA32089F0DC00C372AB /* CAEmitterLayer */,
 				CD6B2AA12089EEE200C372AB /* CAGradientLayer */,
 			);
 			path = CALayer;
+			sourceTree = "<group>";
+		};
+		CDC177D6208F2F3B00F0E86C /* CAShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CDC0A285208EDBF400400E9A /* XLsn0wAnimationLayer.h */,
+				CDC0A286208EDBF400400E9A /* XLsn0wAnimationLayer.m */,
+			);
+			path = CAShapeLayer;
+			sourceTree = "<group>";
+		};
+		CDC177D9208F324800F0E86C /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				CDC177D7208F31C200F0E86C /* XLsn0wDrawKit.bundle */,
+			);
+			path = Bundle;
 			sourceTree = "<group>";
 		};
 		CDFF8A052089C9010005B749 /* DialView */ = {
@@ -401,9 +409,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC177D8208F31C200F0E86C /* XLsn0wDrawKit.bundle in Resources */,
 				CD322C9C2088431300609DCA /* LaunchScreen.storyboard in Resources */,
 				CD322C992088431300609DCA /* Assets.xcassets in Resources */,
-				CD322CD920887BA600609DCA /* 贝塞尔弧线π参考系.png in Resources */,
 				CD322C972088431100609DCA /* Main.storyboard in Resources */,
 				CDC0A281208EDA7200400E9A /* XLsn0wDrawKit.podspec in Resources */,
 			);
@@ -484,15 +492,15 @@
 				CD322CC92088619300609DCA /* DialView.m in Sources */,
 				CD322CC4208844D100609DCA /* ViewController.m in Sources */,
 				CD322C9F2088431300609DCA /* main.m in Sources */,
-				CD6B2A9D2089EAFA00C372AB /* SnowView.m in Sources */,
-				CD6B2A9E2089EAFA00C372AB /* YULoadingLabel.m in Sources */,
-				CD322CD62088693F00609DCA /* HXGaugeChart.m in Sources */,
-				CD322CD42088693F00609DCA /* HXLineChart.m in Sources */,
+				CD6B2A9D2089EAFA00C372AB /* SnowEmitterCellView.m in Sources */,
+				CD6B2A9E2089EAFA00C372AB /* XLsn0wGradientLayerLabel.m in Sources */,
+				CD322CD62088693F00609DCA /* GaugeChartView.m in Sources */,
+				CD322CD42088693F00609DCA /* LineChartView.m in Sources */,
 				CD322CD32088693F00609DCA /* CircularChart.m in Sources */,
-				CD6B2A9C2089EAFA00C372AB /* EmitterLayerView.m in Sources */,
+				CD6B2A9C2089EAFA00C372AB /* BaseEmitterLayerView.m in Sources */,
 				CD322CC5208844D100609DCA /* DrawView.m in Sources */,
 				CDC0A287208EDBF400400E9A /* XLsn0wAnimationLayer.m in Sources */,
-				CD322CD52088693F00609DCA /* HXBarChart.m in Sources */,
+				CD322CD52088693F00609DCA /* BarChartView.m in Sources */,
 				CD322C912088431100609DCA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

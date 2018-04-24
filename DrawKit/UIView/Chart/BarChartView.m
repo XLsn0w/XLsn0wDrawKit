@@ -1,14 +1,7 @@
-//
-//  HXBarChart.m
-//  移动运维
-//
-//  Created by 韩旭 on 2017/8/22.
-//  Copyright © 2017年 韩旭. All rights reserved.
-//
 
-#import "HXBarChart.h"
+#import "BarChartView.h"
 
-@interface HXBarChart()
+@interface BarChartView ()
 @property (nonatomic, strong) CAShapeLayer *lineLayer;
 
 @property (nonatomic, strong) NSMutableArray *colorLayerArray;
@@ -32,9 +25,7 @@
 @property (nonatomic,assign) OrientationType type;
 @end
 
-@implementation HXBarChart
-
-
+@implementation BarChartView
 
 - (instancetype)initWithFrame:(CGRect)frame withMarkLabelCount:(int)markLabelCount withOrientationType:(OrientationType)type{
     self = [super initWithFrame:frame];

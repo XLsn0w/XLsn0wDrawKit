@@ -1,15 +1,14 @@
 
 
-#import "EmitterLayerView.h"
+#import "BaseEmitterLayerView.h"
 
-@interface EmitterLayerView () {
-    
-    CAEmitterLayer *_layer;
+@interface BaseEmitterLayerView () {
+    CAEmitterLayer *emitterLayer;
 }
 
 @end
 
-@implementation EmitterLayerView
+@implementation BaseEmitterLayerView
 
 /**
  *  替换layer
@@ -27,12 +26,12 @@
  */
 - (void)setEmitterLayer:(CAEmitterLayer *)layer {
     
-    _layer = layer;
+    emitterLayer = layer;
 }
 
 - (CAEmitterLayer *)emitterLayer {
     
-    return _layer;
+    return emitterLayer;
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {
@@ -41,7 +40,7 @@
     
     if (self) {
         
-        _layer = (CAEmitterLayer *)self.layer;
+        emitterLayer = (CAEmitterLayer *)self.layer;
     }
     return self;
 }
@@ -54,7 +53,7 @@
     
 }
 
-- (void)configType:(EMitterType)type {
+- (void)initWithType:(EmitterType)type {
 
 }
 

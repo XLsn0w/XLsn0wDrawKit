@@ -1,7 +1,7 @@
 
-#import "HXGaugeChart.h"
+#import "GaugeChartView.h"
 
-@interface HXGaugeChart()
+@interface GaugeChartView ()
 
 @property (nonatomic, weak) UILabel *valueLabel;
 
@@ -29,7 +29,7 @@
 
 @end
 
-@implementation HXGaugeChart
+@implementation GaugeChartView
 
 - (instancetype)initWithFrame:(CGRect)frame
                  withMaxValue:(CGFloat)maxValue

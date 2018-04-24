@@ -32,7 +32,7 @@ typedef NS_ENUM(NSUInteger, XLsn0wAnimationLayerType){
 
 @property (nonatomic, assign) XLsn0wAnimationLayerType replicatorLayerType;
 
-+ (CALayer *)replicatorLayerWithType:(XLsn0wAnimationLayerType)type;
++ (CALayer *)initWithType:(XLsn0wAnimationLayerType)type;
 
 + (CALayer *)drawCircle;
 + (CALayer *)drawWave;

@@ -14,21 +14,20 @@
     CALayer *layer = nil;
     
     switch (type) {
+            
         case XLsn0wAnimationLayer_Circle:
-        {
             layer = [self drawCircle];
-        }
             break;
+            
         case XLsn0wAnimationLayer_Wave:
-        {
             layer = [self drawWave];
-        }
             break;
-        case XLsn0wAnimationLayer_Triangle:
-        {
+            
+        case XLsn0wAnimationLayer_Triangle: {
             layer = [self drawTriangle];
         }
             break;
+            
         case XLsn0wAnimationLayer_Grid:
         {
             layer = [self drawGrid];

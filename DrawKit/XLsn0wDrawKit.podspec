@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version         = "1.0.0"
+  s.version         = "1.0.1"
 
   s.summary         = "XLsn0wDrawKit by UIBezierPath + CAShapeLayer + CAAnimation"
   s.author          = { "XLsn0w" => "xlsn0w@outlook.com" }
@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
   s.source          = { :git => "https://github.com/XLsn0w/XLsn0wDrawKit.git", :tag => s.version.to_s }
 
   s.source_files    = "DrawKit/**/*.{h,m}"
+
+  s.resources       = "DrawKit/Bundle/XLsn0wDrawKit.bundle"
 
   s.frameworks      = "UIKit", "Foundation"
 
