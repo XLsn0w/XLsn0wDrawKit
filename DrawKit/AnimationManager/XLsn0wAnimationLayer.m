@@ -10,54 +10,52 @@
 
 @implementation XLsn0wAnimationLayer
 
-+ (CALayer *)replicatorLayerWithType:(XLsn0wAnimationLayerType)type
-{
++ (CALayer *)initWithType:(XLsn0wAnimationLayerType)type {
     CALayer *layer = nil;
     
     switch (type) {
         case XLsn0wAnimationLayer_Circle:
         {
-            layer = [self replicatorLayer_Circle];
+            layer = [self drawCircle];
         }
             break;
         case XLsn0wAnimationLayer_Wave:
         {
-            layer = [self replicatorLayer_Wave];
+            layer = [self drawWave];
         }
             break;
         case XLsn0wAnimationLayer_Triangle:
         {
-            layer = [self replicatorLayer_Triangle];
+            layer = [self drawTriangle];
         }
             break;
         case XLsn0wAnimationLayer_Grid:
         {
-            layer = [self replicatorLayer_Grid];
+            layer = [self drawGrid];
         }
             break;
         case XLsn0wAnimationLayer_Shake:
         {
-            layer = [self replicatorLayer_Shake];
+            layer = [self drawShake];
         }
             break;
         case XLsn0wAnimationLayer_Round:
         {
-            layer = [self replicatorLayer_Round];
+            layer = [self drawRound];
         }
             break;
-        case XLsn0wAnimationLayer_Heart:
-        {
-            layer = [self replicatorLayer_Heart];
+        case XLsn0wAnimationLayer_Heart: {
+            layer = [self drawHeart];
         }
             break;
-        case XLsn0wAnimationLayer_Turn:
-        {
-            layer = [self replicatorLayer_Turn];
+            
+        case XLsn0wAnimationLayer_Turn: {
+            layer = [self drawTurn];
         }
             break;
-        default:
-        {
-            layer = [self replicatorLayer_Circle];
+            
+        default: {
+            layer = [self drawCircle];
         }
             break;
     }
@@ -68,7 +66,7 @@
 #pragma mark -----------------------  复制层
 
 // 圆圈动画 波纹
-+ (CALayer *)replicatorLayer_Circle{
++ (CALayer *)drawCircle{
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     shapeLayer.frame = CGRectMake(0, 0, 80, 80);
     shapeLayer.path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, 80, 80)].CGPath;
@@ -91,7 +89,7 @@
 }
 
 // 波动动画
-+ (CALayer *)replicatorLayer_Wave{
++ (CALayer *)drawWave {
     CGFloat between = 5.0;
     CGFloat radius = (100-2*between)/3;
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
@@ -111,7 +109,7 @@
 }
 
 // 三角形动画
-+ (CALayer *)replicatorLayer_Triangle{
++ (CALayer *)drawTriangle {
     CGFloat radius = 100/4;
     CGFloat transX = 100 - radius;
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
@@ -136,7 +134,7 @@
 }
 
 // 网格动画
-+ (CALayer *)replicatorLayer_Grid{
++ (CALayer *)drawGrid {
     NSInteger column = 3;
     CGFloat between = 5.0;
     CGFloat radius = (100 - between * (column - 1))/column;
@@ -170,7 +168,7 @@
 }
 
 // 震动条动画
-+ (CALayer *)replicatorLayer_Shake{
++ (CALayer *)drawShake {
     
     CALayer *layer = [[CALayer alloc]init];
     layer.frame = CGRectMake(0, 0, 10, 80);
@@ -191,7 +189,7 @@
 }
 
 // 转圈动画
-+ (CALayer *)replicatorLayer_Round{
++ (CALayer *)drawRound {
     
     CALayer *layer = [[CALayer alloc]init];
     layer.frame = CGRectMake(0, 0, 12, 12);
@@ -226,7 +224,7 @@
 }
 
 // 心动画
-+ (CALayer *)replicatorLayer_Heart{
++ (CALayer *)drawHeart {
     CAReplicatorLayer *replicatorLayer = [CAReplicatorLayer layer];
     
     CALayer *subLayer = [CALayer layer];
@@ -254,8 +252,7 @@
 }
 
 // 翻转动画
-+ (CALayer *)replicatorLayer_Turn
-{
++ (CALayer *)drawTurn {
     CGFloat margin = 8.0;
     CGFloat width = 80;
     CGFloat dotW = (width - 2 * margin) / 3;

@@ -1,7 +1,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DialView : UIView
+@interface DialView : UIView ///刻度盘
 
 /**
  设置进度值的显示的字体大小

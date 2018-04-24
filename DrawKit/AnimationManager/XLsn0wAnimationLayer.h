@@ -34,12 +34,12 @@ typedef NS_ENUM(NSUInteger, XLsn0wAnimationLayerType){
 
 + (CALayer *)replicatorLayerWithType:(XLsn0wAnimationLayerType)type;
 
-+ (CALayer *)replicatorLayer_Circle;
-+ (CALayer *)replicatorLayer_Wave;
-+ (CALayer *)replicatorLayer_Triangle;
-+ (CALayer *)replicatorLayer_Grid;
-+ (CALayer *)replicatorLayer_Shake;
-+ (CALayer *)replicatorLayer_Round;
-+ (CALayer *)replicatorLayer_Heart;
++ (CALayer *)drawCircle;
++ (CALayer *)drawWave;
++ (CALayer *)drawTriangle;
++ (CALayer *)drawGrid;
++ (CALayer *)drawShake;
++ (CALayer *)drawRound;
++ (CALayer *)drawHeart;
 
 @end

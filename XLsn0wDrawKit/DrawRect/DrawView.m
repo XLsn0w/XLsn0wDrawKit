@@ -89,7 +89,7 @@
 
  // 在这以后的图形绘制超出当前路径范围则不可见
  - (void)addClip;
-
+DrawRect
 */
 - (void)drawRect:(CGRect)rect {
     // Drawing code

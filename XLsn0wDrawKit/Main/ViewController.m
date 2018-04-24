@@ -24,7 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view.layer addSublayer:[XLsn0wAnimationLayer replicatorLayer_Heart]];
+    [self.view.layer addSublayer:[XLsn0wAnimationLayer drawHeart]];
 }
 
 - (void)loveReplicatorLayer {

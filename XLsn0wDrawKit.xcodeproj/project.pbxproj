@@ -163,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				CDC177D4208F089E00F0E86C /* Main */,
+				CD322CEF2088927900609DCA /* DrawRect */,
 				CDC177D5208F0A4A00F0E86C /* CALayer */,
 				CD322CD720886A8B00609DCA /* UIView */,
 			);
@@ -191,8 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				CD322CF020889D8900609DCA /* Chart */,
-				CDFF8A052089C9010005B749 /* Components */,
-				CD322CEF2088927900609DCA /* DrawRect */,
+				CDFF8A052089C9010005B749 /* DialView */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -287,13 +287,13 @@
 			path = CALayer;
 			sourceTree = "<group>";
 		};
-		CDFF8A052089C9010005B749 /* Components */ = {
+		CDFF8A052089C9010005B749 /* DialView */ = {
 			isa = PBXGroup;
 			children = (
 				CD322CC72088619300609DCA /* DialView.h */,
 				CD322CC82088619300609DCA /* DialView.m */,
 			);
-			path = Components;
+			path = DialView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
