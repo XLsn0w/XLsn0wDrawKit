@@ -23,11 +23,11 @@
 		CD322CD52088693F00609DCA /* HXBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CCF2088693E00609DCA /* HXBarChart.m */; };
 		CD322CD62088693F00609DCA /* HXGaugeChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CD12088693E00609DCA /* HXGaugeChart.m */; };
 		CD322CD920887BA600609DCA /* 贝塞尔弧线π参考系.png in Resources */ = {isa = PBXBuildFile; fileRef = CD322CD820887BA500609DCA /* 贝塞尔弧线π参考系.png */; };
-		CD6B2A9B2089EAFA00C372AB /* YUAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A922089EAF900C372AB /* YUAnimationViewController.m */; };
 		CD6B2A9C2089EAFA00C372AB /* EmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A952089EAF900C372AB /* EmitterLayerView.m */; };
 		CD6B2A9D2089EAFA00C372AB /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A962089EAF900C372AB /* SnowView.m */; };
 		CD6B2A9E2089EAFA00C372AB /* YULoadingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A972089EAF900C372AB /* YULoadingLabel.m */; };
-		CD6B2AA02089EAFA00C372AB /* YUReplicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A992089EAF900C372AB /* YUReplicatorAnimation.m */; };
+		CDC0A281208EDA7200400E9A /* XLsn0wDrawKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CDC0A280208EDA7200400E9A /* XLsn0wDrawKit.podspec */; };
+		CDC0A287208EDBF400400E9A /* XLsn0wAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC0A286208EDBF400400E9A /* XLsn0wAnimationLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,13 +82,12 @@
 		CD6B2A8F2089EAF800C372AB /* EmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterLayerView.h; sourceTree = "<group>"; };
 		CD6B2A902089EAF800C372AB /* YULoadingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YULoadingLabel.h; sourceTree = "<group>"; };
 		CD6B2A912089EAF800C372AB /* SnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
-		CD6B2A922089EAF900C372AB /* YUAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUAnimationViewController.m; sourceTree = "<group>"; };
-		CD6B2A942089EAF900C372AB /* YUAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUAnimationViewController.h; sourceTree = "<group>"; };
 		CD6B2A952089EAF900C372AB /* EmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterLayerView.m; sourceTree = "<group>"; };
 		CD6B2A962089EAF900C372AB /* SnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
 		CD6B2A972089EAF900C372AB /* YULoadingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YULoadingLabel.m; sourceTree = "<group>"; };
-		CD6B2A992089EAF900C372AB /* YUReplicatorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUReplicatorAnimation.m; sourceTree = "<group>"; };
-		CD6B2A9A2089EAF900C372AB /* YUReplicatorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUReplicatorAnimation.h; sourceTree = "<group>"; };
+		CDC0A280208EDA7200400E9A /* XLsn0wDrawKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wDrawKit.podspec; sourceTree = "<group>"; };
+		CDC0A285208EDBF400400E9A /* XLsn0wAnimationLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLsn0wAnimationLayer.h; sourceTree = "<group>"; };
+		CDC0A286208EDBF400400E9A /* XLsn0wAnimationLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAnimationLayer.m; sourceTree = "<group>"; };
 		E554C36C37EED55AF1E2C740 /* Pods-XLsn0wDrawKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wDrawKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wDrawKit/Pods-XLsn0wDrawKit.release.xcconfig"; sourceTree = "<group>"; };
 		F795D90754F5CA37021F9C56 /* Pods_XLsn0wDrawKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLsn0wDrawKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -139,6 +138,7 @@
 		CD322C832088431100609DCA = {
 			isa = PBXGroup;
 			children = (
+				CDC0A27F208EDA7200400E9A /* DrawKit */,
 				CD322C8E2088431100609DCA /* XLsn0wDrawKit */,
 				CD322CA72088431300609DCA /* XLsn0wDrawKitTests */,
 				CD322CB22088431300609DCA /* XLsn0wDrawKitUITests */,
@@ -165,7 +165,6 @@
 				CD322C902088431100609DCA /* AppDelegate.m */,
 				CD322C922088431100609DCA /* ViewController.h */,
 				CD322CC2208844D100609DCA /* ViewController.m */,
-				CD6B2AA42089F10800C372AB /* AnimationManager */,
 				CD6B2AA32089F0DC00C372AB /* CAEmitterLayer */,
 				CD6B2AA12089EEE200C372AB /* CAGradientLayer */,
 				CD322CF020889D8900609DCA /* Chart */,
@@ -203,18 +202,18 @@
 			isa = PBXGroup;
 			children = (
 				CDFF8A052089C9010005B749 /* Components */,
-				CD322CEF2088927900609DCA /* drawRect */,
+				CD322CEF2088927900609DCA /* DrawRect */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
 		};
-		CD322CEF2088927900609DCA /* drawRect */ = {
+		CD322CEF2088927900609DCA /* DrawRect */ = {
 			isa = PBXGroup;
 			children = (
 				CD322CC1208844D100609DCA /* DrawView.h */,
 				CD322CC3208844D100609DCA /* DrawView.m */,
 			);
-			path = drawRect;
+			path = DrawRect;
 			sourceTree = "<group>";
 		};
 		CD322CF020889D8900609DCA /* Chart */ = {
@@ -255,12 +254,19 @@
 		CD6B2AA42089F10800C372AB /* AnimationManager */ = {
 			isa = PBXGroup;
 			children = (
-				CD6B2A942089EAF900C372AB /* YUAnimationViewController.h */,
-				CD6B2A922089EAF900C372AB /* YUAnimationViewController.m */,
-				CD6B2A9A2089EAF900C372AB /* YUReplicatorAnimation.h */,
-				CD6B2A992089EAF900C372AB /* YUReplicatorAnimation.m */,
+				CDC0A285208EDBF400400E9A /* XLsn0wAnimationLayer.h */,
+				CDC0A286208EDBF400400E9A /* XLsn0wAnimationLayer.m */,
 			);
 			path = AnimationManager;
+			sourceTree = "<group>";
+		};
+		CDC0A27F208EDA7200400E9A /* DrawKit */ = {
+			isa = PBXGroup;
+			children = (
+				CDC0A280208EDA7200400E9A /* XLsn0wDrawKit.podspec */,
+				CD6B2AA42089F10800C372AB /* AnimationManager */,
+			);
+			path = DrawKit;
 			sourceTree = "<group>";
 		};
 		CDFF8A052089C9010005B749 /* Components */ = {
@@ -381,6 +387,7 @@
 				CD322C992088431300609DCA /* Assets.xcassets in Resources */,
 				CD322CD920887BA600609DCA /* 贝塞尔弧线π参考系.png in Resources */,
 				CD322C972088431100609DCA /* Main.storyboard in Resources */,
+				CDC0A281208EDA7200400E9A /* XLsn0wDrawKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,9 +473,8 @@
 				CD322CD32088693F00609DCA /* CircularChart.m in Sources */,
 				CD6B2A9C2089EAFA00C372AB /* EmitterLayerView.m in Sources */,
 				CD322CC5208844D100609DCA /* DrawView.m in Sources */,
-				CD6B2A9B2089EAFA00C372AB /* YUAnimationViewController.m in Sources */,
+				CDC0A287208EDBF400400E9A /* XLsn0wAnimationLayer.m in Sources */,
 				CD322CD52088693F00609DCA /* HXBarChart.m in Sources */,
-				CD6B2AA02089EAFA00C372AB /* YUReplicatorAnimation.m in Sources */,
 				CD322C912088431100609DCA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

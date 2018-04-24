@@ -1,56 +1,56 @@
 //
-//  YUReplicatorAnimation.m
-//  YUAnimation
+//  XLsn0wAnimationLayer.m
+//  XLsn0wDrawKit
 //
-//  Created by administrator on 17/2/4.
-//  Copyright © 2017年 animation.com. All rights reserved.
+//  Created by ginlong on 2018/4/24.
+//  Copyright © 2018年 ginlong. All rights reserved.
 //
 
-#import "YUReplicatorAnimation.h"
+#import "XLsn0wAnimationLayer.h"
 
-@implementation YUReplicatorAnimation
+@implementation XLsn0wAnimationLayer
 
-+ (CALayer *)replicatorLayerWithType:(YUReplicatorLayerType)type
++ (CALayer *)replicatorLayerWithType:(XLsn0wAnimationLayerType)type
 {
     CALayer *layer = nil;
     
     switch (type) {
-        case YUReplicatorLayerCircle:
+        case XLsn0wAnimationLayer_Circle:
         {
             layer = [self replicatorLayer_Circle];
         }
             break;
-        case YUReplicatorLayerWave:
+        case XLsn0wAnimationLayer_Wave:
         {
             layer = [self replicatorLayer_Wave];
         }
             break;
-        case YUReplicatorLayerTriangle:
+        case XLsn0wAnimationLayer_Triangle:
         {
             layer = [self replicatorLayer_Triangle];
         }
             break;
-        case YUReplicatorLayerGrid:
+        case XLsn0wAnimationLayer_Grid:
         {
             layer = [self replicatorLayer_Grid];
         }
             break;
-        case YUReplicatorLayerShake:
+        case XLsn0wAnimationLayer_Shake:
         {
             layer = [self replicatorLayer_Shake];
         }
             break;
-        case YUReplicatorLayerRound:
+        case XLsn0wAnimationLayer_Round:
         {
             layer = [self replicatorLayer_Round];
         }
             break;
-        case YUReplicatorLayerHeart:
+        case XLsn0wAnimationLayer_Heart:
         {
             layer = [self replicatorLayer_Heart];
         }
             break;
-        case YUReplicatorLayerTurn:
+        case XLsn0wAnimationLayer_Turn:
         {
             layer = [self replicatorLayer_Turn];
         }
@@ -230,7 +230,7 @@
     
     CAReplicatorLayer *replicatorLayer = [CAReplicatorLayer new];
     replicatorLayer.frame = CGRectMake(0, 0, 200, 200);
-
+    
     CALayer *subLayer = [CALayer layer];
     subLayer.bounds = CGRectMake(60, 105, 10, 10);
     subLayer.backgroundColor = [UIColor colorWithWhite:0.8 alpha:1.0].CGColor;
@@ -362,5 +362,5 @@
     return scale;
 }
 
-@end
 
+@end
