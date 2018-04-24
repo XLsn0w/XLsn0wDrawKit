@@ -112,8 +112,7 @@
 
 #pragma mark -----------------------  渐变动画
 
-- (void)setupCAGradientLayer
-{
+- (void)setupCAGradientLayer {
     // CAGradientLayer 动画
     YULoadingLabel *loadingLabel = [YULoadingLabel loadingLabel];
     loadingLabel.frame = CGRectMake(100, 100, 200, 100);
@@ -143,11 +142,9 @@
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     YUAnimationViewController *animationCtrl = [[YUAnimationViewController alloc] init];
     animationCtrl.replicatorLayerType = indexPath.row;
-//    animationCtrl.title = _animationTypes[indexPath.row];
     [self.navigationController pushViewController:animationCtrl animated:YES];
 }
 

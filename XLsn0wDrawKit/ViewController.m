@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "DrawView.h"
 #import "DialView.h"
+#import <LocalAuthentication/LocalAuthentication.h>
 
 @interface ViewController ()
 
