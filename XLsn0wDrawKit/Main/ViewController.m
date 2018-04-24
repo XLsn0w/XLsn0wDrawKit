@@ -10,6 +10,7 @@
 #import "DrawView.h"
 #import "DialView.h"
 #import <LocalAuthentication/LocalAuthentication.h>
+#import "XLsn0wDrawKit.h"
 
 @interface ViewController ()
 
@@ -23,8 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    [self drawDialView];
+    [self.view.layer addSublayer:[XLsn0wAnimationLayer replicatorLayer_Heart]];
 }
 
 - (void)loveReplicatorLayer {

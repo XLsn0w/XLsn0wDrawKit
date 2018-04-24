@@ -227,12 +227,10 @@
 
 // 心动画
 + (CALayer *)replicatorLayer_Heart{
-    
-    CAReplicatorLayer *replicatorLayer = [CAReplicatorLayer new];
-    replicatorLayer.frame = CGRectMake(0, 0, 200, 200);
+    CAReplicatorLayer *replicatorLayer = [CAReplicatorLayer layer];
     
     CALayer *subLayer = [CALayer layer];
-    subLayer.bounds = CGRectMake(60, 105, 10, 10);
+    subLayer.bounds = CGRectMake(60, 205, 10, 10);
     subLayer.backgroundColor = [UIColor colorWithWhite:0.8 alpha:1.0].CGColor;
     subLayer.borderColor = [UIColor colorWithWhite:1.0 alpha:1.0].CGColor;
     subLayer.borderWidth = 1.0;
@@ -240,15 +238,13 @@
     subLayer.shouldRasterize = YES;
     subLayer.rasterizationScale = [UIScreen mainScreen].scale;
     
-    [replicatorLayer addSublayer:subLayer];
-    
     CAKeyframeAnimation *move = [CAKeyframeAnimation animationWithKeyPath:@"position"];
     move.path = [self heartPath];
     move.repeatCount = INFINITY;
     move.duration = 6.0;
-    //    move.autoreverses = YES;
     [subLayer addAnimation:move forKey:nil];
     
+    [replicatorLayer addSublayer:subLayer];
     replicatorLayer.instanceDelay = 6/50.0;
     replicatorLayer.instanceCount = 50;
     replicatorLayer.instanceColor = [UIColor redColor].CGColor;

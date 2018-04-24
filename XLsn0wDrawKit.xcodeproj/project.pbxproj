@@ -88,6 +88,7 @@
 		CDC0A280208EDA7200400E9A /* XLsn0wDrawKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wDrawKit.podspec; sourceTree = "<group>"; };
 		CDC0A285208EDBF400400E9A /* XLsn0wAnimationLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLsn0wAnimationLayer.h; sourceTree = "<group>"; };
 		CDC0A286208EDBF400400E9A /* XLsn0wAnimationLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAnimationLayer.m; sourceTree = "<group>"; };
+		CDC0A289208EFC2C00400E9A /* XLsn0wDrawKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLsn0wDrawKit.h; sourceTree = "<group>"; };
 		E554C36C37EED55AF1E2C740 /* Pods-XLsn0wDrawKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wDrawKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wDrawKit/Pods-XLsn0wDrawKit.release.xcconfig"; sourceTree = "<group>"; };
 		F795D90754F5CA37021F9C56 /* Pods_XLsn0wDrawKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLsn0wDrawKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -161,21 +162,9 @@
 		CD322C8E2088431100609DCA /* XLsn0wDrawKit */ = {
 			isa = PBXGroup;
 			children = (
-				CD322C8F2088431100609DCA /* AppDelegate.h */,
-				CD322C902088431100609DCA /* AppDelegate.m */,
-				CD322C922088431100609DCA /* ViewController.h */,
-				CD322CC2208844D100609DCA /* ViewController.m */,
-				CD6B2AA32089F0DC00C372AB /* CAEmitterLayer */,
-				CD6B2AA12089EEE200C372AB /* CAGradientLayer */,
-				CD322CF020889D8900609DCA /* Chart */,
+				CDC177D4208F089E00F0E86C /* Main */,
+				CDC177D5208F0A4A00F0E86C /* CALayer */,
 				CD322CD720886A8B00609DCA /* UIView */,
-				CD322C952088431100609DCA /* Main.storyboard */,
-				CD322C982088431300609DCA /* Assets.xcassets */,
-				CD322C9A2088431300609DCA /* LaunchScreen.storyboard */,
-				CD322C9D2088431300609DCA /* Info.plist */,
-				CD322C9E2088431300609DCA /* main.m */,
-				CD322CC620885D2E00609DCA /* PrefixHeader.pch */,
-				CD322CD820887BA500609DCA /* 贝塞尔弧线π参考系.png */,
 			);
 			path = XLsn0wDrawKit;
 			sourceTree = "<group>";
@@ -201,6 +190,7 @@
 		CD322CD720886A8B00609DCA /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				CD322CF020889D8900609DCA /* Chart */,
 				CDFF8A052089C9010005B749 /* Components */,
 				CD322CEF2088927900609DCA /* DrawRect */,
 			);
@@ -264,9 +254,37 @@
 			isa = PBXGroup;
 			children = (
 				CDC0A280208EDA7200400E9A /* XLsn0wDrawKit.podspec */,
+				CDC0A289208EFC2C00400E9A /* XLsn0wDrawKit.h */,
+				CD322CD820887BA500609DCA /* 贝塞尔弧线π参考系.png */,
 				CD6B2AA42089F10800C372AB /* AnimationManager */,
 			);
 			path = DrawKit;
+			sourceTree = "<group>";
+		};
+		CDC177D4208F089E00F0E86C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CD322C8F2088431100609DCA /* AppDelegate.h */,
+				CD322C902088431100609DCA /* AppDelegate.m */,
+				CD322C922088431100609DCA /* ViewController.h */,
+				CD322CC2208844D100609DCA /* ViewController.m */,
+				CD322CC620885D2E00609DCA /* PrefixHeader.pch */,
+				CD322C952088431100609DCA /* Main.storyboard */,
+				CD322C982088431300609DCA /* Assets.xcassets */,
+				CD322C9A2088431300609DCA /* LaunchScreen.storyboard */,
+				CD322C9E2088431300609DCA /* main.m */,
+				CD322C9D2088431300609DCA /* Info.plist */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CDC177D5208F0A4A00F0E86C /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B2AA32089F0DC00C372AB /* CAEmitterLayer */,
+				CD6B2AA12089EEE200C372AB /* CAGradientLayer */,
+			);
+			path = CALayer;
 			sourceTree = "<group>";
 		};
 		CDFF8A052089C9010005B749 /* Components */ = {
@@ -647,8 +665,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MS6RTU94VW;
-				GCC_PREFIX_HEADER = XLsn0wDrawKit/PrefixHeader.pch;
-				INFOPLIST_FILE = XLsn0wDrawKit/Info.plist;
+				GCC_PREFIX_HEADER = XLsn0wDrawKit/Main/PrefixHeader.pch;
+				INFOPLIST_FILE = XLsn0wDrawKit/Main/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -666,8 +684,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MS6RTU94VW;
-				GCC_PREFIX_HEADER = XLsn0wDrawKit/PrefixHeader.pch;
-				INFOPLIST_FILE = XLsn0wDrawKit/Info.plist;
+				GCC_PREFIX_HEADER = XLsn0wDrawKit/Main/PrefixHeader.pch;
+				INFOPLIST_FILE = XLsn0wDrawKit/Main/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
