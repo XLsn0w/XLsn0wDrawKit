@@ -9,6 +9,7 @@
 #ifndef XLsn0wDrawKit_h
 #define XLsn0wDrawKit_h
 
-#import "XLsn0wAnimationLayer.h"
+#import "XLsn0wAniLayer.h"
+#import "DialView.h"
 
 #endif /* XLsn0wDrawKit_h */

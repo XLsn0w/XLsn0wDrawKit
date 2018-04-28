@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage        = "https://github.com/XLsn0w/XLsn0wDrawKit"
   s.source          = { :git => "https://github.com/XLsn0w/XLsn0wDrawKit.git", :tag => s.version.to_s }
 
-  s.source_files    = "DrawKit/**/*.{h,m}"
+  s.source_files    = "DrawKit/**/*.{h,m,swift}"
 
   s.resources       = "DrawKit/Bundle/XLsn0wDrawKit.bundle"
 
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc    = true
   s.license         = 'MIT'
-  s.platform        = :ios, "8.0"
+  s.platform        = :ios, "9.0"
 
   s.dependency "XLsn0wKit_objc"
 

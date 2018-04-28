@@ -15,7 +15,9 @@
 
 /*
  1.CAShapeLayer
- CAShapeLayer具有path属性，（是CGPath对象），可以使用这个属性与UIBezierPath画出想要的图形。该子类根据其fill color和strokeColor值对该路径填充或者描边，或二者都有，并显示结果。fillColor默认值是黑色，二strokenColor没有默认值。CAShapeLayer也可能有contents，该形状显示在内容图像的上方，但没有任何属性允许你指定合成模式（compositioning  mode）。
+ CAShapeLayer具有path属性，（是CGPath对象），可以使用这个属性与UIBezierPath画出想要的图形。
+ 该子类根据其fill color和strokeColor值对该路径填充或者描边，或二者都有，并显示结果。
+ fillColor默认值是黑色，二strokenColor没有默认值。CAShapeLayer也可能有contents，该形状显示在内容图像的上方，但没有任何属性允许你指定合成模式（compositioning  mode）。
  
  普通CALayer在被初始化时是需要给一个frame值的,这个frame值一般都与给定view的bounds值一致,它本身是有形状的,而且是矩形.
  

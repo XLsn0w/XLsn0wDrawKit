@@ -8,16 +8,17 @@
 
 #import "ViewController.h"
 #import "DrawView.h"
-#import "DialView.h"
+
 #import <LocalAuthentication/LocalAuthentication.h>
 #import "XLsn0wDrawKit.h"
-#import "GaugeChartView.h"
+#import <Masonry/Masonry.h>
 
 @interface ViewController ()
 
 @property (nonatomic, assign)  CGFloat strokeEnd;
-@property (nonatomic, strong)  CAShapeLayer *mylayer;
+@property (nonatomic, strong)  CAShapeLayer  *mylayer;
 @property (nonatomic, strong)  CADisplayLink *displayLink;
+@property (nonatomic, strong)  UIView *demoView;
 
 @end
 
@@ -25,9 +26,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [self.view.layer addSublayer:[XLsn0wAnimationLayer drawHeart]];
-    GaugeChartView *v = [[GaugeChartView alloc] initWithFrame:(CGRectMake(100, 100, 200, 400)) withMaxValue:200 value:30];
-    [self.view addSubview:v];
+    _demoView = [[UIView alloc] init];
+    [self.view addSubview:_demoView];
+    [_demoView xlsn0w_layerBorderWidth:2.0
+                           borderColor:UIColor.blueColor
+                          cornerRadius:0];
+    [_demoView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(self.view);
+        make.centerY.mas_equalTo(self.view);
+        make.width.mas_equalTo(200);
+        make.height.mas_equalTo(200);
+    }];
+    CALayer *tLayer = [XLsn0wAniLayer drawTriangleLayer];
+    [_demoView.layer addSublayer:tLayer];
+}
+
+- (CAGradientLayer *)getBackgroundLayer {
+    CAGradientLayer *gradientLayer = [CAGradientLayer layer];
+    gradientLayer.frame = self.view.bounds;
+    gradientLayer.colors = @[bridge_id[UIColor blueColor].CGColor, bridge_id[UIColor cyanColor].CGColor];
+    gradientLayer.startPoint = CGPointMake(0.8, 0);
+    gradientLayer.endPoint   = CGPointMake(0.7, 1);
+    gradientLayer.locations = @[@0.68, @1];
+    return gradientLayer;
 }
 
 - (void)loveReplicatorLayer {

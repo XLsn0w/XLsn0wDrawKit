@@ -22,11 +22,27 @@
 		CD322CD42088693F00609DCA /* LineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CCE2088693E00609DCA /* LineChartView.m */; };
 		CD322CD52088693F00609DCA /* BarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CCF2088693E00609DCA /* BarChartView.m */; };
 		CD322CD62088693F00609DCA /* GaugeChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD322CD12088693E00609DCA /* GaugeChartView.m */; };
+		CD4489D82092BCC700C78FDF /* iOSInterviewQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4489D72092BCC700C78FDF /* iOSInterviewQ.swift */; };
+		CD5D2C1020905EE700E73275 /* JHRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D2BF720905EE700E73275 /* JHRadarChart.m */; };
+		CD5D2C1120905EE700E73275 /* JHPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D2BF920905EE700E73275 /* JHPieChart.m */; };
+		CD5D2C1220905EE700E73275 /* JHWaveChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D2BFB20905EE700E73275 /* JHWaveChart.m */; };
+		CD5D2C1320905EE700E73275 /* JHTableDataRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D2BFC20905EE700E73275 /* JHTableDataRowModel.m */; };
+		CD5D2C1420905EE700E73275 /* JHColumnChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D2C0020905EE700E73275 /* JHColumnChart.m */; };
+		CD5D2C1520905EE700E73275 /* JHShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D2C0120905EE700E73275 /* JHShowController.m */; };
+		CD5D2C1620905EE700E73275 /* JHChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D2C0220905EE700E73275 /* JHChart.m */; };
+		CD5D2C1720905EE700E73275 /* JHRingChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D2C0420905EE700E73275 /* JHRingChart.m */; };
+		CD5D2C1820905EE700E73275 /* JHLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D2C0520905EE700E73275 /* JHLineChart.m */; };
+		CD5D2C1920905EE700E73275 /* JHShowInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D2C0820905EE700E73275 /* JHShowInfoView.m */; };
+		CD5D2C1A20905EE700E73275 /* JHPieItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D2C0B20905EE700E73275 /* JHPieItemsView.m */; };
+		CD5D2C1B20905EE700E73275 /* JHPieForeBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D2C0C20905EE700E73275 /* JHPieForeBGView.m */; };
+		CD5D2C1C20905EE700E73275 /* JHTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D2C0D20905EE700E73275 /* JHTableChart.m */; };
 		CD6B2A9C2089EAFA00C372AB /* BaseEmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A952089EAF900C372AB /* BaseEmitterLayerView.m */; };
 		CD6B2A9D2089EAFA00C372AB /* SnowEmitterCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A962089EAF900C372AB /* SnowEmitterCellView.m */; };
 		CD6B2A9E2089EAFA00C372AB /* XLsn0wGradientLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A972089EAF900C372AB /* XLsn0wGradientLayerLabel.m */; };
+		CD7D88B02090132800590DDB /* XLDKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D88AA2090132600590DDB /* XLDKButton.m */; };
+		CD7D88B22090132800590DDB /* XLDKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D88AF2090132700590DDB /* XLDKTextField.m */; };
 		CDC0A281208EDA7200400E9A /* XLsn0wDrawKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CDC0A280208EDA7200400E9A /* XLsn0wDrawKit.podspec */; };
-		CDC0A287208EDBF400400E9A /* XLsn0wAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC0A286208EDBF400400E9A /* XLsn0wAnimationLayer.m */; };
+		CDC0A287208EDBF400400E9A /* XLsn0wAniLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC0A286208EDBF400400E9A /* XLsn0wAniLayer.m */; };
 		CDC177D8208F31C200F0E86C /* XLsn0wDrawKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDC177D7208F31C200F0E86C /* XLsn0wDrawKit.bundle */; };
 /* End PBXBuildFile section */
 
@@ -78,15 +94,47 @@
 		CD322CD02088693E00609DCA /* LineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartView.h; sourceTree = "<group>"; };
 		CD322CD12088693E00609DCA /* GaugeChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaugeChartView.m; sourceTree = "<group>"; };
 		CD322CD22088693E00609DCA /* GaugeChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaugeChartView.h; sourceTree = "<group>"; };
+		CD4489D62092BCC600C78FDF /* XLsn0wDrawKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLsn0wDrawKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		CD4489D72092BCC700C78FDF /* iOSInterviewQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSInterviewQ.swift; sourceTree = "<group>"; };
+		CD5D2BF520905EE700E73275 /* JHLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLineChart.h; sourceTree = "<group>"; };
+		CD5D2BF620905EE700E73275 /* JHRingChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRingChart.h; sourceTree = "<group>"; };
+		CD5D2BF720905EE700E73275 /* JHRadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRadarChart.m; sourceTree = "<group>"; };
+		CD5D2BF920905EE700E73275 /* JHPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieChart.m; sourceTree = "<group>"; };
+		CD5D2BFA20905EE700E73275 /* JHShowInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHShowInfoView.h; sourceTree = "<group>"; };
+		CD5D2BFB20905EE700E73275 /* JHWaveChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHWaveChart.m; sourceTree = "<group>"; };
+		CD5D2BFC20905EE700E73275 /* JHTableDataRowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTableDataRowModel.m; sourceTree = "<group>"; };
+		CD5D2BFD20905EE700E73275 /* JHTableChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTableChart.h; sourceTree = "<group>"; };
+		CD5D2BFE20905EE700E73275 /* JHPieForeBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieForeBGView.h; sourceTree = "<group>"; };
+		CD5D2BFF20905EE700E73275 /* JHPieItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieItemsView.h; sourceTree = "<group>"; };
+		CD5D2C0020905EE700E73275 /* JHColumnChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHColumnChart.m; sourceTree = "<group>"; };
+		CD5D2C0120905EE700E73275 /* JHShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHShowController.m; sourceTree = "<group>"; };
+		CD5D2C0220905EE700E73275 /* JHChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHChart.m; sourceTree = "<group>"; };
+		CD5D2C0320905EE700E73275 /* JHRadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRadarChart.h; sourceTree = "<group>"; };
+		CD5D2C0420905EE700E73275 /* JHRingChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRingChart.m; sourceTree = "<group>"; };
+		CD5D2C0520905EE700E73275 /* JHLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLineChart.m; sourceTree = "<group>"; };
+		CD5D2C0620905EE700E73275 /* JHTableDataRowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTableDataRowModel.h; sourceTree = "<group>"; };
+		CD5D2C0720905EE700E73275 /* JHWaveChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHWaveChart.h; sourceTree = "<group>"; };
+		CD5D2C0820905EE700E73275 /* JHShowInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHShowInfoView.m; sourceTree = "<group>"; };
+		CD5D2C0920905EE700E73275 /* JHPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPieChart.h; sourceTree = "<group>"; };
+		CD5D2C0A20905EE700E73275 /* JHColumnChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHColumnChart.h; sourceTree = "<group>"; };
+		CD5D2C0B20905EE700E73275 /* JHPieItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieItemsView.m; sourceTree = "<group>"; };
+		CD5D2C0C20905EE700E73275 /* JHPieForeBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPieForeBGView.m; sourceTree = "<group>"; };
+		CD5D2C0D20905EE700E73275 /* JHTableChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTableChart.m; sourceTree = "<group>"; };
+		CD5D2C0E20905EE700E73275 /* JHChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChart.h; sourceTree = "<group>"; };
+		CD5D2C0F20905EE700E73275 /* JHShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHShowController.h; sourceTree = "<group>"; };
 		CD6B2A8F2089EAF800C372AB /* BaseEmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEmitterLayerView.h; sourceTree = "<group>"; };
 		CD6B2A902089EAF800C372AB /* XLsn0wGradientLayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wGradientLayerLabel.h; sourceTree = "<group>"; };
 		CD6B2A912089EAF800C372AB /* SnowEmitterCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowEmitterCellView.h; sourceTree = "<group>"; };
 		CD6B2A952089EAF900C372AB /* BaseEmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEmitterLayerView.m; sourceTree = "<group>"; };
 		CD6B2A962089EAF900C372AB /* SnowEmitterCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowEmitterCellView.m; sourceTree = "<group>"; };
 		CD6B2A972089EAF900C372AB /* XLsn0wGradientLayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wGradientLayerLabel.m; sourceTree = "<group>"; };
+		CD7D88AA2090132600590DDB /* XLDKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLDKButton.m; sourceTree = "<group>"; };
+		CD7D88AD2090132700590DDB /* XLDKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLDKButton.h; sourceTree = "<group>"; };
+		CD7D88AE2090132700590DDB /* XLDKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLDKTextField.h; sourceTree = "<group>"; };
+		CD7D88AF2090132700590DDB /* XLDKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLDKTextField.m; sourceTree = "<group>"; };
 		CDC0A280208EDA7200400E9A /* XLsn0wDrawKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wDrawKit.podspec; sourceTree = "<group>"; };
-		CDC0A285208EDBF400400E9A /* XLsn0wAnimationLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLsn0wAnimationLayer.h; sourceTree = "<group>"; };
-		CDC0A286208EDBF400400E9A /* XLsn0wAnimationLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAnimationLayer.m; sourceTree = "<group>"; };
+		CDC0A285208EDBF400400E9A /* XLsn0wAniLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLsn0wAniLayer.h; sourceTree = "<group>"; };
+		CDC0A286208EDBF400400E9A /* XLsn0wAniLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAniLayer.m; sourceTree = "<group>"; };
 		CDC0A289208EFC2C00400E9A /* XLsn0wDrawKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLsn0wDrawKit.h; sourceTree = "<group>"; };
 		CDC177D7208F31C200F0E86C /* XLsn0wDrawKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XLsn0wDrawKit.bundle; sourceTree = "<group>"; };
 		E554C36C37EED55AF1E2C740 /* Pods-XLsn0wDrawKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wDrawKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wDrawKit/Pods-XLsn0wDrawKit.release.xcconfig"; sourceTree = "<group>"; };
@@ -189,6 +237,7 @@
 		CD322CD720886A8B00609DCA /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				CD5D2BF420905EE700E73275 /* JHChart */,
 				CD322CF020889D8900609DCA /* Chart */,
 				CDFF8A052089C9010005B749 /* DialView */,
 			);
@@ -219,6 +268,39 @@
 			path = Chart;
 			sourceTree = "<group>";
 		};
+		CD5D2BF420905EE700E73275 /* JHChart */ = {
+			isa = PBXGroup;
+			children = (
+				CD5D2C0F20905EE700E73275 /* JHShowController.h */,
+				CD5D2C0120905EE700E73275 /* JHShowController.m */,
+				CD5D2C0E20905EE700E73275 /* JHChart.h */,
+				CD5D2C0220905EE700E73275 /* JHChart.m */,
+				CD5D2BF520905EE700E73275 /* JHLineChart.h */,
+				CD5D2BF620905EE700E73275 /* JHRingChart.h */,
+				CD5D2BF720905EE700E73275 /* JHRadarChart.m */,
+				CD5D2BF920905EE700E73275 /* JHPieChart.m */,
+				CD5D2BFA20905EE700E73275 /* JHShowInfoView.h */,
+				CD5D2BFB20905EE700E73275 /* JHWaveChart.m */,
+				CD5D2BFC20905EE700E73275 /* JHTableDataRowModel.m */,
+				CD5D2BFD20905EE700E73275 /* JHTableChart.h */,
+				CD5D2BFE20905EE700E73275 /* JHPieForeBGView.h */,
+				CD5D2BFF20905EE700E73275 /* JHPieItemsView.h */,
+				CD5D2C0020905EE700E73275 /* JHColumnChart.m */,
+				CD5D2C0320905EE700E73275 /* JHRadarChart.h */,
+				CD5D2C0420905EE700E73275 /* JHRingChart.m */,
+				CD5D2C0520905EE700E73275 /* JHLineChart.m */,
+				CD5D2C0620905EE700E73275 /* JHTableDataRowModel.h */,
+				CD5D2C0720905EE700E73275 /* JHWaveChart.h */,
+				CD5D2C0820905EE700E73275 /* JHShowInfoView.m */,
+				CD5D2C0920905EE700E73275 /* JHPieChart.h */,
+				CD5D2C0A20905EE700E73275 /* JHColumnChart.h */,
+				CD5D2C0B20905EE700E73275 /* JHPieItemsView.m */,
+				CD5D2C0C20905EE700E73275 /* JHPieForeBGView.m */,
+				CD5D2C0D20905EE700E73275 /* JHTableChart.m */,
+			);
+			path = JHChart;
+			sourceTree = "<group>";
+		};
 		CD6B2AA12089EEE200C372AB /* CAGradientLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,12 +313,22 @@
 		CD6B2AA32089F0DC00C372AB /* CAEmitterLayer */ = {
 			isa = PBXGroup;
 			children = (
-				CD6B2A8F2089EAF800C372AB /* BaseEmitterLayerView.h */,
-				CD6B2A952089EAF900C372AB /* BaseEmitterLayerView.m */,
+				CDD0457C2091A88F00DF2388 /* BaseEmitterLayerView */,
 				CD6B2A912089EAF800C372AB /* SnowEmitterCellView.h */,
 				CD6B2A962089EAF900C372AB /* SnowEmitterCellView.m */,
 			);
 			path = CAEmitterLayer;
+			sourceTree = "<group>";
+		};
+		CD7D88B32090158100590DDB /* XLDK */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D88AE2090132700590DDB /* XLDKTextField.h */,
+				CD7D88AF2090132700590DDB /* XLDKTextField.m */,
+				CD7D88AD2090132700590DDB /* XLDKButton.h */,
+				CD7D88AA2090132600590DDB /* XLDKButton.m */,
+			);
+			path = XLDK;
 			sourceTree = "<group>";
 		};
 		CDC0A27F208EDA7200400E9A /* DrawKit */ = {
@@ -244,9 +336,12 @@
 			children = (
 				CDC0A280208EDA7200400E9A /* XLsn0wDrawKit.podspec */,
 				CDC0A289208EFC2C00400E9A /* XLsn0wDrawKit.h */,
-				CDC177D9208F324800F0E86C /* Bundle */,
-				CD322CD720886A8B00609DCA /* UIView */,
+				CD7D88B32090158100590DDB /* XLDK */,
 				CDC177D5208F0A4A00F0E86C /* CALayer */,
+				CD322CD720886A8B00609DCA /* UIView */,
+				CDC177D9208F324800F0E86C /* Bundle */,
+				CD4489D62092BCC600C78FDF /* XLsn0wDrawKit-Bridging-Header.h */,
+				CD4489D72092BCC700C78FDF /* iOSInterviewQ.swift */,
 			);
 			path = DrawKit;
 			sourceTree = "<group>";
@@ -271,20 +366,21 @@
 		CDC177D5208F0A4A00F0E86C /* CALayer */ = {
 			isa = PBXGroup;
 			children = (
-				CDC177D6208F2F3B00F0E86C /* CAShapeLayer */,
+				CDD0457D2091B87C00DF2388 /* CAShapeLayer */,
+				CDC177D6208F2F3B00F0E86C /* CAReplicatorLayer */,
 				CD6B2AA32089F0DC00C372AB /* CAEmitterLayer */,
 				CD6B2AA12089EEE200C372AB /* CAGradientLayer */,
 			);
 			path = CALayer;
 			sourceTree = "<group>";
 		};
-		CDC177D6208F2F3B00F0E86C /* CAShapeLayer */ = {
+		CDC177D6208F2F3B00F0E86C /* CAReplicatorLayer */ = {
 			isa = PBXGroup;
 			children = (
-				CDC0A285208EDBF400400E9A /* XLsn0wAnimationLayer.h */,
-				CDC0A286208EDBF400400E9A /* XLsn0wAnimationLayer.m */,
+				CDC0A285208EDBF400400E9A /* XLsn0wAniLayer.h */,
+				CDC0A286208EDBF400400E9A /* XLsn0wAniLayer.m */,
 			);
-			path = CAShapeLayer;
+			path = CAReplicatorLayer;
 			sourceTree = "<group>";
 		};
 		CDC177D9208F324800F0E86C /* Bundle */ = {
@@ -293,6 +389,22 @@
 				CDC177D7208F31C200F0E86C /* XLsn0wDrawKit.bundle */,
 			);
 			path = Bundle;
+			sourceTree = "<group>";
+		};
+		CDD0457C2091A88F00DF2388 /* BaseEmitterLayerView */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B2A8F2089EAF800C372AB /* BaseEmitterLayerView.h */,
+				CD6B2A952089EAF900C372AB /* BaseEmitterLayerView.m */,
+			);
+			path = BaseEmitterLayerView;
+			sourceTree = "<group>";
+		};
+		CDD0457D2091B87C00DF2388 /* CAShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CAShapeLayer;
 			sourceTree = "<group>";
 		};
 		CDFF8A052089C9010005B749 /* DialView */ = {
@@ -373,6 +485,7 @@
 				TargetAttributes = {
 					CD322C8B2088431100609DCA = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					CD322CA32088431300609DCA = {
 						CreatedOnToolsVersion = 9.3;
@@ -492,16 +605,32 @@
 				CD322CC92088619300609DCA /* DialView.m in Sources */,
 				CD322CC4208844D100609DCA /* ViewController.m in Sources */,
 				CD322C9F2088431300609DCA /* main.m in Sources */,
+				CD5D2C1120905EE700E73275 /* JHPieChart.m in Sources */,
 				CD6B2A9D2089EAFA00C372AB /* SnowEmitterCellView.m in Sources */,
+				CD5D2C1820905EE700E73275 /* JHLineChart.m in Sources */,
 				CD6B2A9E2089EAFA00C372AB /* XLsn0wGradientLayerLabel.m in Sources */,
+				CD7D88B02090132800590DDB /* XLDKButton.m in Sources */,
 				CD322CD62088693F00609DCA /* GaugeChartView.m in Sources */,
 				CD322CD42088693F00609DCA /* LineChartView.m in Sources */,
 				CD322CD32088693F00609DCA /* CircularChart.m in Sources */,
 				CD6B2A9C2089EAFA00C372AB /* BaseEmitterLayerView.m in Sources */,
+				CD5D2C1420905EE700E73275 /* JHColumnChart.m in Sources */,
+				CD5D2C1720905EE700E73275 /* JHRingChart.m in Sources */,
 				CD322CC5208844D100609DCA /* DrawView.m in Sources */,
-				CDC0A287208EDBF400400E9A /* XLsn0wAnimationLayer.m in Sources */,
+				CDC0A287208EDBF400400E9A /* XLsn0wAniLayer.m in Sources */,
+				CD4489D82092BCC700C78FDF /* iOSInterviewQ.swift in Sources */,
+				CD5D2C1B20905EE700E73275 /* JHPieForeBGView.m in Sources */,
+				CD5D2C1520905EE700E73275 /* JHShowController.m in Sources */,
+				CD5D2C1320905EE700E73275 /* JHTableDataRowModel.m in Sources */,
+				CD5D2C1620905EE700E73275 /* JHChart.m in Sources */,
 				CD322CD52088693F00609DCA /* BarChartView.m in Sources */,
+				CD5D2C1920905EE700E73275 /* JHShowInfoView.m in Sources */,
 				CD322C912088431100609DCA /* AppDelegate.m in Sources */,
+				CD7D88B22090132800590DDB /* XLDKTextField.m in Sources */,
+				CD5D2C1020905EE700E73275 /* JHRadarChart.m in Sources */,
+				CD5D2C1A20905EE700E73275 /* JHPieItemsView.m in Sources */,
+				CD5D2C1220905EE700E73275 /* JHWaveChart.m in Sources */,
+				CD5D2C1C20905EE700E73275 /* JHTableChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,6 +800,7 @@
 			baseConfigurationReference = 8D4629D5ABDDEC954B4705E2 /* Pods-XLsn0wDrawKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MS6RTU94VW;
 				GCC_PREFIX_HEADER = XLsn0wDrawKit/Main/PrefixHeader.pch;
@@ -681,6 +811,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ginlong.XLsn0wDrawKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DrawKit/XLsn0wDrawKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -690,6 +823,7 @@
 			baseConfigurationReference = E554C36C37EED55AF1E2C740 /* Pods-XLsn0wDrawKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MS6RTU94VW;
 				GCC_PREFIX_HEADER = XLsn0wDrawKit/Main/PrefixHeader.pch;
@@ -700,6 +834,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ginlong.XLsn0wDrawKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DrawKit/XLsn0wDrawKit-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -707,6 +843,7 @@
 		CD322CBC2088431300609DCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MS6RTU94VW;
@@ -726,6 +863,7 @@
 		CD322CBD2088431300609DCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MS6RTU94VW;
@@ -745,6 +883,7 @@
 		CD322CBF2088431300609DCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MS6RTU94VW;
 				INFOPLIST_FILE = XLsn0wDrawKitUITests/Info.plist;
@@ -763,6 +902,7 @@
 		CD322CC02088431300609DCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MS6RTU94VW;
 				INFOPLIST_FILE = XLsn0wDrawKitUITests/Info.plist;
